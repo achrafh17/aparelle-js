@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  margin: 0;
+}
+.main {
+  padding: 60px;
+  padding-left: 150px;
+  position: absolute;
+}
+#avatar {
+  width: 50vw;
+  height: 100vh;
+  margin-left: 50vw;
+}
+#logo {
+  width: 200px;
+  margin-left: 1px;
+}
+#first-text {
+  font-size: 60px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 11px;
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+  margin-top: 100px;
+}
+#second-text {
+  font-size: 80px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  width: 100px;
+  margin-top: -40px;
+}
+#third-text {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  width: 400px;
+  margin-top: -60px;
+  line-height: 1.5;
+  color: hsl(0, 36%, 70%);
+}
+.input-button {
+  display: flex;
+  align-items: center;
+}
+input {
+  width: 400px;
+  height: 45px;
+  border-radius: 30px;
+  border: 2px solid hsl(0, 36%, 70%);
+  outline: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 30px;
+}
+input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  color: hsl(0, 36%, 70%);
+  padding-left: 10px;
+}
+button {
+  width: 90px;
+  height: 50px;
+  margin-top: 0;
+  background: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: none;
+  border-radius: 40px;
+  margin-left: -90px;
+  margin-top: 19px;
+  box-shadow: 5px 5px 18px hsl(0, 80%, 86%) ;
+  cursor: pointer;
+}
+#eror {
+    width: 30px;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 17px;
+    display:none ;
+}
+#eror-message {
+    color:hsl(0, 74%, 74%) ;
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 10px;
+    margin-top: -px;
+    display: none;
+}
